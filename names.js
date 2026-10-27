@@ -1,0 +1,25 @@
+// List of students in Year 12 C
+let students = [
+    "Kane Adamson",
+    "Theo Barnes",
+    "Alex Benton",
+    "Liam Berryman",
+    "Oscar Berryman",
+    "Toby Blackwell",
+    "Alastair Cheneka",
+    "Harish Dulipkumar",
+    "Federico Hintze",
+    "Finlay Kirke",
+    "Ethan Lin",
+    "Nathan Lindroos",
+    "Angus Maclaren",
+    "Wellington Matope",
+    "Hayden Molloy",
+    "Rohan Rama",
+    "Nikhil Ranchhod",
+    "Jaydon Randall",
+    "Cooper Reddish",
+    "Lucy Turner",
+    "Noah Wallace",
+    "Andrew Yang"
+];

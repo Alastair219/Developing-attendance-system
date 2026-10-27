@@ -1,0 +1,109 @@
+/* Okabe-Ito colourblind friendly palette
+   Orange #E69F00, Sky Blue #56B4E9, Green #009E73, Yellow #F0E442,
+   Blue #0072B2, Vermillion #D55E00, Reddish Purple #CC79A7, Black #000000 */
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #56B4E9;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #0072B2;
+    border-radius: 10px;
+}
+
+.wide {
+    width: 500px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 90%;
+    border: 2px solid #0072B2;
+    border-radius: 5px;
+}
+
+button, .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0072B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #000000;
+}
+
+.admin-button {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    background-color: #E69F00;
+    color: #000000;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+#error {
+    color: #D55E00;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0072B2;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #56B4E9;
+}
+
+.present {
+    background-color: #009E73;
+    color: #000000;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.absent {
+    background-color: #D55E00;
+    color: #000000;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}

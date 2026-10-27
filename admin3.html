@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body onload="showAdmin()">
+
+    <h1>Admin – Year 12 C</h1>
+
+    <div class="box wide">
+        <p id="count"></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="classTable"></tbody>
+        </table>
+
+        <button onclick="clearAttendance()">Clear Attendance</button>
+    </div>
+
+    <a href="index3.html" class="back-link">← Back</a>
+
+    <script src="names.js"></script>
+    <script src="script3.js"></script>
+
+</body>
+</html>

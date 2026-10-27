@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <h1>Admin – Year 12 C</h1>
+
+    <div class="box" id="passwordBox">
+        <h2>Admin Login</h2>
+
+        <label>Password:</label>
+        <input type="password" id="passwordInput">
+
+        <button onclick="checkPassword()">Enter</button>
+
+        <p id="error"></p>
+    </div>
+
+    <div class="box wide" id="adminBox" style="display: none;">
+        <p id="count"></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="classTable"></tbody>
+        </table>
+
+        <button onclick="clearAttendance()">Clear Attendance</button>
+    </div>
+
+    <a href="index3.html" class="back-link">← Back</a>
+
+    <script src="names.js"></script>
+    <script src="script4.js"></script>
+
+</body>
+</html>
